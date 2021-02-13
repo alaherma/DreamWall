@@ -14,13 +14,15 @@
 /* Banner */
 
 	body.is-preload {
+		
 		#banner {
 			h2 {
 				@include vendor('transform', 'none');
 				opacity: 1;
+				
 
 				&:before, &:after {
-					width: 100%;
+					width: 200%;
 				}
 			}
 
