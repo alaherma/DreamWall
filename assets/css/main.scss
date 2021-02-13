@@ -1681,6 +1681,15 @@ $palette: (
 	}
 
 /* Banner */
+	.Dream-counter{
+		color: rgb(255, 255, 255) !important;
+		font-size: 2.5em  !important;
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	.justify-inner-p p{
+		text-align:justify !important;
+	}
 
 	#banner {
 		@include vendor('display', 'flex');
@@ -1697,7 +1706,7 @@ $palette: (
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 2em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -1706,9 +1715,9 @@ $palette: (
 			&:before, &:after {
 				@include vendor('transition', 'width 0.85s ease');
 				@include vendor('transition-delay', '0.25s');
-				background: _palette(fg-bold);
+				/*background: _palette(fg-bold);
 				content: '';
-				display: block;
+				display: block;*/
 				height: 2px;
 				position: absolute;
 				width: 100%;
@@ -1879,7 +1888,7 @@ $palette: (
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/zentli-dibujo.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/dream-wallpaper-1.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2004,7 +2013,7 @@ $palette: (
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/zentli-dibujo.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/dream-wallpaper-1.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2025,7 +2034,7 @@ $palette: (
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/zentli-dibujo.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/dream-wallpaper-1.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

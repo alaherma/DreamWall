@@ -1,37 +1,31 @@
 ---
 title: Home
 banner:
-  title: Zentli
+  title: 0000001
   subtitle: |-
-    A Holistic Ecovillage Living in Community
+    Sueños alcanzados hasta ahora:
   actions:
-    - label: Volunteer Now
+    - label: Hagamos del tuyo el siguiente
       url: /volunteer-oportunities
       is_scrolly: false
       is_primary: true
-    - label: Join a workshop
-      url: /workshops
-      is_scrolly: false
-      is_primary: true
-    - label: Live with us
-      url: /becoming-a-resident
-      is_scrolly: false
-      is_primary: true
   bottom_link:
-    label: Learn More
+    label: leer mas
     url: '#one'
     has_arrow: true
     is_scrolly: true
 sections:
   - title: |-
-      Arcu aliquet vel lobortis ata nisl
-      eget augue amet aliquet nisl cep donec
-    subtitle: >-
-      Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-      eleifend  
+      ¿Por que compartir mi sueño en esta pagina? 
 
-      fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-      ullamcorper.  
+    subtitle: >-
+       Simple. 
+       <br>
+       <br>Yo hare TODO lo que este en mis manos para ayudarte a conseguirlo.
+       <br>
+       <br>Ahora lo sabes,
+       <br> asi de facil conseguiras un aliado que te ayudara a lograr tus sueños. 
+       
     section_id: one
     background_style: style1
     feature_icons:
@@ -51,21 +45,30 @@ sections:
     background_style: style2
     spotlights:
       - title: |-
-          Our Lands
+          ¿Por qué hago esto?
         text: >-
-          Zentli is located in Cuatrociénegas Municipality , state of Coahuila in the nort of Mexico 
-        home_img_path: images/zentli-granja-abuelo-entrada.jpg
-      - title: |-
-          Our Team
-        text: >-
-          Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-          imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Es mi objetivo en la vida, mi mision más importante,  mi vocación: 
+          <br>
+          <br>"Ayudar a por lo menos 1,000,000 de personas a alcanzar la vida de sus sueños."
+          <br>
+          <br>Es algo que me trae mucha felicidad y plenitud.  Para este 2021 el objetivo concreto es ayudar a por lo menos 2 personas a cumplir sus sueños. Me gustaria que fueras tú.
         home_img_path: images/limpiando-la-zona-del-tipi.jpg
+
       - title: |-
-          Our way of living
+          ¿Donde estoy?
         text: >-
-          Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-          imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+          Actualmente vivo en guadalajara, pero me encanta viajar, asi que si estas a menos de 5hr en carro de aqui podria acercarme a ti.
+          <br>
+          <br>Si uno de tus sueños es viajar, acampar , o visitar algún lugar dentro de México, es de los sueños que mas facil puedo ayudar a cumplir.   
+        home_img_path: images/zentli-granja-abuelo-entrada.jpg
+    
+      - title: |-
+          ¿Como te puedo ayudar?
+        text: >-
+          Francamente, aun no lo se. Pero una vez conociendo cuales son tus sueños, podre comparar, lo que te hace falta, contra mis habilidades, conocimientos, recursos a mi dispoción y  contactos. Posteriormente me pondre en contacto contigo para decirte
+          más especificamente te puedo ayudar.
+          <br>
+          <br>
         home_img_path: images/abuela-en-arboleda.jpg
     type: spotlights
     component: spotlights.html
